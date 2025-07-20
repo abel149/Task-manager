@@ -9,7 +9,7 @@ const cors = require("cors");
 const path = require("path");
 
 const authRoutes = require("./routes/auth");
-
+const taskRoutes = require("./routes/task");
 const app = express();
 
 if (process.env.NODE_ENV === "development") {
@@ -20,6 +20,8 @@ app.use(cors({ origin: "http://192.168.114.165:5000" }));
 app.use(express.json());
 
 app.use("/api/auth", authRoutes);
+
+app.use("/api/tasks", taskRoutes);
 
 //app.use('/api/v1/tours' /*userrouter*/);
 
