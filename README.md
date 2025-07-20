@@ -45,7 +45,7 @@ JWT_SECRET=your_jwt_secret_key
 ---
 ---
 ## Project Structure 
-
+'''
 ├── controllers/
 │   ├── auth.js
 │   ├── task.js
@@ -62,6 +62,7 @@ JWT_SECRET=your_jwt_secret_key
 ├── server.js
 
 └── README.md
+'''
 ---
 ## 📦 Installation
 
