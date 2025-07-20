@@ -70,8 +70,7 @@ JWT_SECRET=your_jwt_secret_key
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/task-manager-api.git
-cd task-manager-api
+git clone git@github.com:abel149/Task-manager.git
 
 # Install dependencies
 npm install
