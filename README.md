@@ -62,8 +62,20 @@ JWT_SECRET=your_jwt_secret_key
 ├── server.js
 └── README.md
 ```
+```
+🔐 Auth Routes
+POST    /api/auth/signup
+POST    /api/auth/login
 
+👤 User
+GET     /api/profile           # requires JWT
 
+📋 Tasks
+POST    /api/tasks             # requires JWT
+GET     /api/tasks             # optional: ?search=term&page=1
+PATCH   /api/tasks/:id         # requires JWT
+DELETE  /api/tasks/:id         # requires JWT
+```
 ## 📦 Installation
 
 ```bash
