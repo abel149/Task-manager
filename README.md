@@ -38,15 +38,14 @@ This is a backend API for a Simple Task Manager system built using **Express.js*
 ---
 ---
 ## create .env file
-
+```
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/taskmanager
 JWT_SECRET=your_jwt_secret_key
----
----
+```
+## 📁 Project Structure
 
-## Project Structure 
-
+```
 ├── controllers/
 │   ├── auth.js
 │   ├── task.js
@@ -61,10 +60,9 @@ JWT_SECRET=your_jwt_secret_key
 ├── app.js
 ├── .env
 ├── server.js
-
 └── README.md
+```
 
----
 
 ## 📦 Installation
 
