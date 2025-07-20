@@ -44,8 +44,9 @@ MONGODB_URI=mongodb://localhost:27017/taskmanager
 JWT_SECRET=your_jwt_secret_key
 ---
 ---
-## Project Structure 
 '''
+## Project Structure 
+
 ├── controllers/
 │   ├── auth.js
 │   ├── task.js
@@ -62,8 +63,9 @@ JWT_SECRET=your_jwt_secret_key
 ├── server.js
 
 └── README.md
-'''
+
 ---
+'''
 ## 📦 Installation
 
 ```bash
